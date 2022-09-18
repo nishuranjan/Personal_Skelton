@@ -2,11 +2,19 @@
 	<div class="container">
 		<nav>
 			<ul>
-				<li class="active"><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
+				<li><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>
 
-				{% for page in site.pages %} {% if page.title %}
+				<!-- {% for page in site.pages %} {% if page.title %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
+				{% endif %} {% endfor %}-->
+
+				{% for node in site.pages %}
+				    {% if page.url == node.url %}
+				      <li class="active"><a href="{{node.url | prepend: site.baseurl}}" class="active">{{node.title}}</a></li>
+				    {% else %}
+				      <li><a href="{{node.url | prepend: site.baseurl}}">{{node.title}}</a></li>
+				    {% endif %}
+			    {% endfor %}
 			</ul>
 			</li>
 			</ul>
