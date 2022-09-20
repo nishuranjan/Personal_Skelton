@@ -2,8 +2,6 @@
 
 A guide to getting started with Jekyll.
 
-### [Read the tutorial](https://taniarascia.com/make-a-static-website-with-jekyll) | [View the demo](http://taniarascia.github.io/startjekyll/)
-
 ## Purpose
 
 - Learn about static site generators
@@ -13,7 +11,7 @@ A guide to getting started with Jekyll.
 
 ## Author
 
-- [Tania Rascia](https://www.taniarascia.com)
+- Nishant Ranjan
 
 ## License
 
