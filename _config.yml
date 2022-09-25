@@ -3,7 +3,7 @@ title: Blog
 email: py.nishant@gmail.com
 description: >
   A guide to getting started with Jekyll.
-baseurl: "/startjekyll"
+baseurl: "/"
 url: "http://taniarascia.github.io"
 twitter_username: wazusin
 github_username:  nishuranjan
